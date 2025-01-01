@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     }}>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/" element={<App />} /> */}
+          <Route path="/test" element={<App />} />
           <Route path="/"
             element={
               <Stack h={'100vh'} align='center' justify='center'>
