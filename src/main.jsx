@@ -14,16 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/message-for-Sushhhbaby"
-            element={
-              <Stack h={'100vh'} align='center' justify='center'>
-                <Title align='center'>
-                  Sushhhbaby lai mero kiss hai 😘
-                </Title>
-                <Image w="300px" src="https://media.tenor.com/iFhAw2oC0XIAAAAj/slanted-kiss.gif" />
-              </Stack>
-            }
-          />
         </Routes>
       </BrowserRouter>
     </MantineProvider>
