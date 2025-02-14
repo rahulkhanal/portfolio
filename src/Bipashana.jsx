@@ -38,6 +38,7 @@ export default function Valentine() {
 
   return (
     <section className="valentine-box select-none">
+        <center><h1>Hi Bipashana</h1></center>
       {stage === Stages.stageNo && (
         <>
           <div className="text-center">
